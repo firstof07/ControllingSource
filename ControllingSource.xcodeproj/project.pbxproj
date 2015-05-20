@@ -88,10 +88,7 @@
 			children = (
 				E0B5DEB71B0D213A0031BC07 /* AppDelegate.h */,
 				E0B5DEB81B0D213A0031BC07 /* AppDelegate.m */,
-				E0B5DEBD1B0D213A0031BC07 /* MasterViewController.h */,
-				E0B5DEBE1B0D213A0031BC07 /* MasterViewController.m */,
-				E0B5DEC01B0D213A0031BC07 /* DetailViewController.h */,
-				E0B5DEC11B0D213A0031BC07 /* DetailViewController.m */,
+				E0B5DEDF1B0D277C0031BC07 /* ViewControllers */,
 				E0B5DEC31B0D213A0031BC07 /* Main.storyboard */,
 				E0B5DEC61B0D213A0031BC07 /* Images.xcassets */,
 				E0B5DEC81B0D213A0031BC07 /* LaunchScreen.xib */,
@@ -125,6 +122,17 @@
 				E0B5DED41B0D213A0031BC07 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0B5DEDF1B0D277C0031BC07 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0B5DEBD1B0D213A0031BC07 /* MasterViewController.h */,
+				E0B5DEBE1B0D213A0031BC07 /* MasterViewController.m */,
+				E0B5DEC01B0D213A0031BC07 /* DetailViewController.h */,
+				E0B5DEC11B0D213A0031BC07 /* DetailViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +430,7 @@
 				E0B5DEDB1B0D213A0031BC07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0B5DEDC1B0D213A0031BC07 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +439,7 @@
 				E0B5DEDE1B0D213A0031BC07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
